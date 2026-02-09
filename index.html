@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanika Sahu | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h5>Hi, I'm</h5>
+            <h1>Sanika Sahu</h1>
+            <h5>And I'm a <span>Frontend Developer</span></h5>
+            <p>A skilled web developer with expertise in HTML, CSS, JavaScript, Java, and C/C++ [1]. I specialize in creating responsive designs and efficient applications [1].</p>
+            <a href="#" class="btn">Download Resume</a> [1]
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About ME</h2>
+        <div class="about-container">
+            <p>I specialize in creating <strong>responsive and visually appealing websites</strong> using HTML, CSS, and JavaScript, ensuring seamless user experiences [1]. With expertise in <strong>Java and C/C++</strong>, I develop efficient algorithms and scalable solutions [1]. Additionally, as a creative logo designer, I craft professional logos using Canva [1].</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>My SERVICES</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>WEB DEVELOPMENT</h3>
+                <p>I excel in creating responsive and visually appealing websites using HTML, CSS, and JavaScript, focusing on seamless user experiences [2].</p>
+                <button class="read-more">Read More</button>
+            </div>
+            <div class="service-card">
+                <h3>LOGO DESIGN</h3>
+                <p>Beyond coding, I am a creative logo designer with proficiency in Canva, specializing in professional logos that reflect brand identity [2].</p>
+                <button class="read-more">Read More</button>
+            </div>
+            <div class="service-card" id="java-service">
+                <h3>JAVA DEVELOPER</h3>
+                <p>As a passionate programmer, I am skilled in Java and C/C++, enabling me to develop efficient algorithms and applications [2].</p>
+                <!-- Hidden content for Read More -->
+                <div class="extra-content" id="extra-java" style="display:none;">
+                    <p>I enjoy problem-solving and thrive on turning complex concepts into reliable, scalable solutions [2].</p>
+                </div>
+                <button class="read-more" onclick="toggleReadMore()">Read More</button> [2]
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Latest PROJECTS</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h4>Weather-Website</h4>
+                <p>Built using HTML, CSS, and JavaScript for smooth functionality [3].</p>
+            </div>
+            <div class="project-card">
+                <h4>Number System Code</h4>
+                <p>Efficient C code for converting and manipulating numbers in binary, octal, and hexadecimal [3].</p>
+            </div>
+            <div class="project-card">
+                <h4>News-Brust</h4>
+                <p>A sleek web app fetching and displaying real-time news with detailed articles [3].</p>
+            </div>
+            <div class="project-card">
+                <h4>TIC TAC TOE</h4>
+                <p>Game developed using Java language (Currently in progress) [3].</p>
+            </div>
+            <div class="project-card">
+                <h4>AI chat Boat</h4>
+                <p>Upcoming Project [4].</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact ME</h2> [4]
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5"></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
